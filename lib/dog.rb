@@ -8,6 +8,7 @@ class Dog
   
   def self.clear_all
     @@all = []
+    @@all.splice(0,@@all.lenght)
   end
   
   def initialize(name)
