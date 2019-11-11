@@ -6,6 +6,10 @@ class Dog
     @@all
   end
   
+  def self.all
+    @@all
+  end
+  
   def self.clear_all
     # @@all = []
     @@all.splice(0,@@all.lenght)
