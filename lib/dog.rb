@@ -8,7 +8,7 @@ class Dog
   
    def self.clear_all
     # @@all = []
-    @@all.splice(0,@@all.lenght)
+    @@all.splice(0,@@all.length)
   end
   
   def self.print_all
