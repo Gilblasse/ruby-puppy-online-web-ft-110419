@@ -6,6 +6,10 @@ class Dog
     @@all
   end
   
+  def self.clear_all
+    @@all
+  end
+  
   def initialize(name)
     @name = name
     @all << self
