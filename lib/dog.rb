@@ -12,13 +12,17 @@ class Dog
   end
   
   def self.print_all
-    @@all.each {|dog| dog.name}
+    @@all.each {|dog| puts dog.name}
   end
   
 
   def initialize(name)
     @name = name
     @all << self
+  end
+  
+  def save
+    @all < self
   end
   
 end
